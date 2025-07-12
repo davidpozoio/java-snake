@@ -1,4 +1,4 @@
-exec:
+exec: build
 	java -cp bin Main
 
 build:
