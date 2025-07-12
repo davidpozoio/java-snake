@@ -1,3 +1,6 @@
+run:
+	java -cp bin Main
+
 exec: build
 	java -cp bin Main
 
