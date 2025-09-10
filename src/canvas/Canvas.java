@@ -37,10 +37,10 @@ public class Canvas extends JComponent {
         snake.addNode();
         snake.addNode();
 
-        input.addEvent(KeyEvent.VK_UP, (e) -> snake.goTo(Directions.UP));
-        input.addEvent(KeyEvent.VK_DOWN, (e) -> snake.goTo(Directions.DOWN));
-        input.addEvent(KeyEvent.VK_LEFT, (e) -> snake.goTo(Directions.LEFT));
-        input.addEvent(KeyEvent.VK_RIGHT, (e) -> snake.goTo(Directions.RIGHT));
+        input.addEvent(KeyEvent.VK_UP, (_) -> snake.goTo(Directions.UP));
+        input.addEvent(KeyEvent.VK_DOWN, (_) -> snake.goTo(Directions.DOWN));
+        input.addEvent(KeyEvent.VK_LEFT, (_) -> snake.goTo(Directions.LEFT));
+        input.addEvent(KeyEvent.VK_RIGHT, (_) -> snake.goTo(Directions.RIGHT));
     }
 
     public KeyboardInput getInput() {
